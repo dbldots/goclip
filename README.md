@@ -1,0 +1,2 @@
+# goclip
+simple xsel replacement
