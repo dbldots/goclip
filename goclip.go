@@ -24,7 +24,6 @@ func main() {
   homedir := os.Getenv("HOME")
 
   clippath := fmt.Sprint(homedir, "/.goclip")
-  fmt.Print(clippath)
 
   if contains(argsWithoutProg, "-i") {
     bytes, _ := ioutil.ReadAll(os.Stdin)
